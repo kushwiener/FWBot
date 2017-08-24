@@ -1,0 +1,47 @@
+var name = "Julien Abrams";
+
+document.getElementById("order_billing_name").value = name;
+
+var email = "julienabrams@hotmail.com";
+
+document.getElementById("order_email").value = email;
+
+var phone = "555 555 5555";
+
+document.getElementById("order_tel").value = phone;
+
+var address = "1135 Julien's House";
+
+document.getElementById("bo").value = address;
+
+var zip = "99352";
+
+document.getElementById("order_billing_zip").value = zip;
+
+var city = "Richland";
+
+document.getElementById("order_billing_city").value = city;
+
+var state = "WA";
+
+document.getElementById("order_billing_state").value = state;
+
+var cNumber = "4204204204204204";
+
+document.getElementById("nnaerb").value = cNumber;
+
+var month= "01";
+
+document.getElementById("credit_card_month").value = month;
+
+var year= "2018";
+
+document.getElementById("credit_card_year").value = year;
+
+var cvv= "515";
+
+document.getElementById("orcer").value = cvv;
+
+document.getElementById("order_terms").checked = true;
+
+document.getElementsByName("commit")[0].click();
